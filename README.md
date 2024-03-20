@@ -18,9 +18,17 @@
 
 ``(crontab -l; echo "@reboot python {path_to_repo_dir}/main.py") | crontab -``
 
+## Start the service manually
+
+``python {path_to_repo}/main.py``
+
 ## Deleting the service
 * remove the cron job
 
 ``crontab -l | gre -v "@reboot python \*.py``
+
+* remove the directory
+
+``rm -rf {path_to_repo}``
 
 
