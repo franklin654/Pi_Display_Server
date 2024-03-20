@@ -25,7 +25,7 @@
 ## Deleting the service
 * remove the cron job
 
-``crontab -l | gre -v "@reboot python \*.py``
+``crontab -l | gre -v "@reboot python @reboot python {path_to_repo_dir}/main.py" | crontab -``
 
 * remove the directory
 
