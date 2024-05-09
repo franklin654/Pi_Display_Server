@@ -1,5 +1,5 @@
 # Server for Raspberry PI display
-#### Bluetooth Service build using PySide6 the service is hosted on the local bluetooth adapter and registered in public browsing group so it can be discoverable. It uses Bluetooth RFCOMM Protocol to connect to Clients and receive requests to display either Image or a message.
+#### Bluetooth Service built using PySide6 the service is hosted on the local bluetooth adapter and registered in public browsing group so it can be discoverable. It uses Bluetooth RFCOMM Protocol to connect to Clients and receive requests to display either Image or a message.
 
 ## Requirements
 * #### Python 3.9-12
